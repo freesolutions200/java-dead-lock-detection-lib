@@ -1,11 +1,11 @@
-package freesolutions200.internal;
+package freesolutions200.lib.deadlock.internal;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 import java.util.HashMap;
 
-import static freesolutions200.internal.Constants.*;
+import static freesolutions200.lib.deadlock.internal.Constants.*;
 
 public class Util {
 
@@ -14,7 +14,6 @@ public class Util {
         long[] threadIds = threadBean.findDeadlockedThreads();
         HashMap<Long, ThreadInfo> threadInfoHashSet;
         if(threadIds != null){
-            threadInfoHashSet = new HashMap<>(2);
             return threadBean.getThreadInfo(threadIds, DEPTH);
         }
         return null;

@@ -1,4 +1,4 @@
-package freesolutions200.internal;
+package freesolutions200.lib.deadlock.internal;
 
 public class Constants {
     public static int DEPTH = 10;
