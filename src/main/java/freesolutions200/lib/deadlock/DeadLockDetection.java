@@ -30,8 +30,9 @@ public class DeadLockDetection {
     }
 
     private class  DeadLockDetector {
-        private Timer timer = new Timer();
+        private Timer timer;
         public void start(){
+            timer = new Timer();
             timer.scheduleAtFixedRate(new DeadLockDetectorTask(), Constants.DELAY, Constants.INTERVAL);
         }
         public void stop(){
