@@ -1,2 +1,37 @@
 # java-dead-lock-detection-lib
-This is an library which can detect dead lock of running java application.
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use maven to build library in local machine.
+
+```bash
+mvn clean install
+```
+
+## Usage
+
+```java
+DeadLockDetection.getInstance().start();
+DeadLockDetection.getInstance().registerListener(new DeadLockDetectionListener() {
+            @Override
+            public void onDeadlockDetected(ThreadInfo[] threadInfos, ThreadInfo[] threadInfoLockings) {
+               
+            }
+        });
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to mention what you would like to change.
+
+## Roadmap
+1. Add test cases
+2. Configurable checking interval and start up 
+delay
+3. Java documentation
+4. Upload to maven repository
+5. Create another auto starter for spring boot
+6. Add appropriate licance
+## License
+None
