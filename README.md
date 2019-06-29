@@ -3,7 +3,7 @@
 Foobar is a Python library for dealing with word pluralization. 
 
 ## Note
-We recommanded to contribute or intimate if any improvement or issue found. This will become matured as time  goes, and to eliminate the requirement to setup any monitoring tool immediatly when dedlock is detected in livesystem.
+We recommanded to contribute or intimate if any improvement or issue found. This will become matured as time  goes, and to eliminate the requirement forsetting any monitoring tool immediatly when dedlock is detected in live system.
 
 ## Installation
 
