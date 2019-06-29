@@ -35,6 +35,6 @@ delay
 3. Java documentation
 4. Upload to maven repository
 5. Create another auto starter for spring boot
-6. Add appropriate licance
+6. Add appropriate license
 ## License
 None
