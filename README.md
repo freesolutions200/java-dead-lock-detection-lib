@@ -1,6 +1,6 @@
 # java-dead-lock-detection-lib
 
-Foobar is a Python library for dealing with word pluralization. 
+This library can be used to detect dead lock situation in java application.   
 
 ## Note
 We recommanded to contribute or intimate if any improvement or issue found. This will become matured as time  goes, and to eliminate the requirement forsetting any monitoring tool immediatly when dedlock is detected in live system.
@@ -23,6 +23,7 @@ DeadLockDetection.getInstance().registerListener(new DeadLockDetectionListener()
                
             }
         });
+DeadLockDetection.getInstance().stop();
 ```
 
 ## Contributing
